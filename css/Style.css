@@ -1,0 +1,39 @@
+* {
+  font-family: OpenSansCustom;
+  background-color: rgb(218, 185, 95);
+}
+#formulario {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  width: 260px;
+  height: 205px;
+  margin: 5px;
+  background-color: #81da6a;
+}
+#formulario label {
+  background-color: #81da6a;
+}
+.iText {
+  background-color: #81da6a;
+}
+#botones {
+  background-color: #81da6a;
+}
+#btnSubmit,
+#btnMostrar {
+  margin-top: 25px;
+  width: 90px;
+  height: 30px;
+}
+#containerPrincipal {
+  display: flex;
+  flex-direction: row;
+}
+#displayTodos,
+#displayTodos p,
+#displayTodos strong,
+#displayTodos h3 {
+  background-color: #81da6a;
+  margin: 5px;
+}
